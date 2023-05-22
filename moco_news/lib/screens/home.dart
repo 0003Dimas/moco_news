@@ -112,6 +112,9 @@ class _HomeScreenState extends State<HomeScreen> {
               backgroundColor: Theme.of(context).backgroundColor,
               iconTheme: IconThemeData(color: Theme.of(context).buttonColor),
               elevation: 0.0,
+              title: Text(
+                "MOCO",
+              ),
               //title: const Image(
               //image: AssetImage('assets/images/main/moco_logo.png'),
               //),
