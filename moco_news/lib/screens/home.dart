@@ -46,7 +46,8 @@ class _HomeScreenState extends State<HomeScreen> {
           children: <Widget>[
             Center(
               child: Container(
-                margin: const EdgeInsets.symmetric(horizontal: 10.0, vertical: 20.0),
+                margin: const EdgeInsets.symmetric(
+                    horizontal: 10.0, vertical: 20.0),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10.0),
                   boxShadow: const [
@@ -112,7 +113,7 @@ class _HomeScreenState extends State<HomeScreen> {
               iconTheme: IconThemeData(color: Theme.of(context).buttonColor),
               elevation: 0.0,
               //title: const Image(
-                //image: AssetImage('assets/images/main/moco_logo.png'),
+              //image: AssetImage('assets/images/main/moco_logo.png'),
               //),
               actions: <Widget>[
                 IconButton(
