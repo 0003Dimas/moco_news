@@ -26,7 +26,8 @@ class _AppDrawerState extends State<AppDrawer> with RouteAware {
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();
-    _routeObserver.subscribe(this, ModalRoute.of(context) as PageRoute<dynamic>);
+    _routeObserver.subscribe(
+        this, ModalRoute.of(context) as PageRoute<dynamic>);
   }
 
   @override
@@ -73,7 +74,7 @@ class _AppDrawerState extends State<AppDrawer> with RouteAware {
                     ),
                   ),
                   const Text(
-                    'Md. Siam',
+                    'Dimas',
                     style: TextStyle(fontSize: 22, color: Colors.white),
                   ),
                   const Text(
@@ -98,7 +99,6 @@ class _AppDrawerState extends State<AppDrawer> with RouteAware {
                   onTap: () async {
                     await _navigateTo(context, RouteNames.home);
                   },
-
                   selected: _selectedRoute == RouteNames.home,
                 ),
                 ListTile(
@@ -210,18 +210,6 @@ class _AppDrawerState extends State<AppDrawer> with RouteAware {
                   selected: _selectedRoute == RouteNames.traffic_alert,
                 ),
                 ListTile(
-                  leading: const Icon(FontAwesomeIcons.cat),
-                  title: const Text(
-                    ScreenTitles.bhejabilai,
-                    style: TextStyle(fontSize: 16.0),
-                  ),
-                  trailing: const Icon(Icons.arrow_right),
-                  onTap: () async {
-                    await _navigateTo(context, RouteNames.bhejabilai);
-                  },
-                  selected: _selectedRoute == RouteNames.bhejabilai,
-                ),
-                ListTile(
                   leading: const Icon(FontAwesomeIcons.puzzlePiece),
                   title: const Text(
                     ScreenTitles.puzzles,
@@ -245,6 +233,18 @@ class _AppDrawerState extends State<AppDrawer> with RouteAware {
                     await _navigateTo(context, RouteNames.wallet);
                   },
                   selected: _selectedRoute == RouteNames.wallet,
+                ),
+                ListTile(
+                  leading: const Icon(FontAwesomeIcons.cat),
+                  title: const Text(
+                    ScreenTitles.about,
+                    style: TextStyle(fontSize: 16.0),
+                  ),
+                  trailing: const Icon(Icons.arrow_right),
+                  onTap: () async {
+                    await _navigateTo(context, RouteNames.aboutus);
+                  },
+                  selected: _selectedRoute == RouteNames.aboutus,
                 ),
                 ListTile(
                   leading: const Icon(FontAwesomeIcons.cog),

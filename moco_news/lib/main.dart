@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
         RouteNames.auctions: (_) => const AuctionsScreen(),
         RouteNames.sale: (_) => const SaleScreen(),
         RouteNames.traffic_alert: (_) => const TrafficAlertScreen(),
-        RouteNames.bhejabilai: (_) => const BhejaBilaiScreen(),
+        RouteNames.aboutus: (_) => const AboutUsScreen(),
         RouteNames.puzzles: (_) => const GameScreen(),
         RouteNames.wallet: (_) => const WalletScreen(),
         RouteNames.settings: (_) => const SettingsScreen(),

@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import '../models/models.dart';
 import '../widgets/widgets.dart';
 
-class BhejaBilaiScreen extends StatelessWidget {
-  const BhejaBilaiScreen({Key? key}) : super(key: key);
+class AboutUsScreen extends StatelessWidget {
+  const AboutUsScreen({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     final bool displayMobileLayout = MediaQuery.of(context).size.width < 600;
@@ -19,18 +19,21 @@ class BhejaBilaiScreen extends StatelessWidget {
               // when the app isn't displaying the mobile version of app, hide the menu button that is used to open the navigation drawer
               automaticallyImplyLeading: displayMobileLayout,
               iconTheme: IconThemeData(color: Theme.of(context).buttonColor),
-              title: const Text(ScreenTitles.bhejabilai),
+              title: const Text(
+                ScreenTitles.about,
+              ),
             ),
             drawer: displayMobileLayout
                 ? const AppDrawer(
-              permanentlyDisplay: false,
-            )
+                    permanentlyDisplay: false,
+                  )
                 : null,
             body: Column(
               children: <Widget>[
                 Container(
-                  padding: const EdgeInsets.only(top: 250),
-                  child: const Text("                   No information available.",
+                  padding: const EdgeInsets.only(top: 12),
+                  child: const Text(
+                      "   Moco News adalah sebuah aplikasi berita yang memberikan pengguna akses cepat dan mudah untuk mendapatkan informasi terkini dari berbagai sumber berita terpercaya. Dengan antarmuka yang intuitif dan responsif, Moco News memastikan pengguna dapat mengikuti berita terbaru dengan mudah dan menyenangkan.",
                       style: TextStyle(fontSize: 16)),
                 ),
               ],

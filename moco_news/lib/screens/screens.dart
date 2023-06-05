@@ -14,7 +14,7 @@ export 'jobs.dart';
 export 'auctions.dart';
 export 'sale.dart';
 export 'traffic_alert.dart';
-export 'bhejabilai.dart';
+export 'aboutus.dart';
 export './puzzles/puzzles_screens.dart';
 export 'wallet.dart';
 export 'settings.dart';

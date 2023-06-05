@@ -10,7 +10,7 @@ class RouteNames {
   static const String auctions = '/auctions';
   static const String sale = '/sale';
   static const String traffic_alert = '/traffic_alert';
-  static const String bhejabilai = '/bhejabilai';
+  static const String aboutus = '/aboutus';
   static const String puzzles = '/puzzles';
   static const String wallet = '/wallet';
   static const String settings = '/settings';
@@ -29,7 +29,7 @@ class ScreenTitles {
   static const String auctions = 'Auctions';
   static const String sale = 'SALE!!';
   static const String traffic_alert = 'Traffic Alert';
-  static const String bhejabilai = 'Bheja Bilai';
+  static const String about = 'About Us';
   static const String puzzles = 'Puzzles';
   static const String wallet = 'Wallet';
   static const String settings = 'Settings';
