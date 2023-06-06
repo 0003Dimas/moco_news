@@ -237,7 +237,7 @@ class _AppDrawerState extends State<AppDrawer> with RouteAware {
                   selected: _selectedRoute == RouteNames.wallet,
                 ),
                 ListTile(
-                  leading: const Icon(FontAwesomeIcons.cat),
+                  leading: const Icon(FontAwesomeIcons.info),
                   title: const Text(
                     ScreenTitles.about,
                     style: TextStyle(fontSize: 16.0),
