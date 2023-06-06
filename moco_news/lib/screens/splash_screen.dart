@@ -17,12 +17,12 @@ class _SplashScreen extends State<SplashScreen> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Text(
-              "Welcome To Moco",
+              "SELAMAT DATANG",
               style: Theme.of(context).textTheme.headline5,
               textAlign: TextAlign.center,
             ),
             Text(
-              "Explore Us",
+              "MOCO",
               style: Theme.of(context).textTheme.headline6,
               textAlign: TextAlign.center,
             ),
@@ -51,11 +51,11 @@ class _SplashScreen extends State<SplashScreen> {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                const Text("Don't have an account?"),
+                const Text("Belum punya akun?"),
                 const SizedBox(width: 5),
                 TextButton(
                   child: Text(
-                    "Create One",
+                    "Buat Akun",
                     style: Theme.of(context)
                         .textTheme
                         .button!

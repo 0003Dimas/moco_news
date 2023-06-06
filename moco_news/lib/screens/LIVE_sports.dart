@@ -66,14 +66,14 @@ class LIVE_SportsScreen extends StatelessWidget {
                             children: <Widget>[
                               const CircleAvatar(
                                 backgroundImage: ExactAssetImage(
-                                    "assets/images/LIVE_Sports/flags/bangladesh.png"),
+                                    "assets/images/LIVE_Sports/flags/australia.png"),
                               ),
                               const Spacer(),
                               Column(
                                 crossAxisAlignment: CrossAxisAlignment.end,
                                 children: <Widget>[
                                   Text(
-                                    "Bangladesh",
+                                    "Australia",
                                     style: teamNameTextStyle,
                                   ),
                                   const SizedBox(height: 5.0),

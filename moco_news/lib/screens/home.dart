@@ -167,7 +167,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 const SizedBox(height: 10.0),
                 ContentScroll(
                   imageUrl: tech_pic,
-                  title: 'Technology',
+                  title: 'Teknologi',
                   imageHeight: 250.0,
                   imageWidth: 150.0,
                 ),

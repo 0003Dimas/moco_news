@@ -30,7 +30,7 @@ class Post {
 
 final List<Post> posts = [
   Post(
-    authorName: 'Md. Siam',
+    authorName: 'Dimas',
     authorImageUrl: 'assets/images/main/mdsiam.png',
     timeAgo: '5 min',
     imageUrl: 'assets/images/traffic_alert/169157577_1966710363491536_4047302796015554658_n.jpg',

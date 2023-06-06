@@ -55,7 +55,7 @@ class SettingsScreen extends StatelessWidget {
                             backgroundImage: ExactAssetImage(
                                 'assets/images/main/mdsiam.png'),
                           ),
-                          title:const  Text("Md. Siam"),
+                          title:const  Text("Dimas"),
                           onTap: () {},
                         ),
                         _buildDivider(),

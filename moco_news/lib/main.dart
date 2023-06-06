@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.system,
       theme: ThemeData(
         brightness: Brightness.light,
-        backgroundColor: Colors.white24, //background of Moco logo
+        backgroundColor: Colors.blue, //background of Moco logo
         secondaryHeaderColor:
             Colors.blue, //secondary header for Jobs and Audiobooks
         cardColor: Colors.white,
