@@ -140,18 +140,6 @@ class _AppDrawerState extends State<AppDrawer> with RouteAware {
                   selected: _selectedRoute == RouteNames.LIVE_sports,
                 ),
                 ListTile(
-                  leading: const Icon(FontAwesomeIcons.chartLine),
-                  title: const Text(
-                    ScreenTitles.stocks,
-                    style: TextStyle(fontSize: 16.0),
-                  ),
-                  trailing: const Icon(Icons.arrow_right),
-                  onTap: () async {
-                    await _navigateTo(context, RouteNames.stocks);
-                  },
-                  selected: _selectedRoute == RouteNames.stocks,
-                ),
-                ListTile(
                   leading: const Icon(FontAwesomeIcons.userEdit),
                   title: const Text(
                     ScreenTitles.resume,

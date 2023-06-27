@@ -8,7 +8,6 @@ export 'splash_screen.dart';
 export 'home.dart';
 export 'bookmarks.dart';
 export 'LIVE_sports.dart';
-export 'stocks.dart';
 export 'resume.dart';
 export 'jobs.dart';
 export 'auctions.dart';

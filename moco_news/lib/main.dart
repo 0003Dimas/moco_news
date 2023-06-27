@@ -39,7 +39,6 @@ class MyApp extends StatelessWidget {
         RouteNames.bookmarks: (_) => const BookmarksScreen(),
         RouteNames.covid19: (_) => const COVID19Screen(),
         RouteNames.LIVE_sports: (_) => const LIVE_SportsScreen(),
-        RouteNames.stocks: (_) => const StocksScreen(),
         RouteNames.resume: (_) => const ResumeScreen(),
         RouteNames.jobs: (_) => const JobsScreen(),
         RouteNames.auctions: (_) => const AuctionsScreen(),

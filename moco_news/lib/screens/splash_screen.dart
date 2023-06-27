@@ -17,7 +17,7 @@ class _SplashScreen extends State<SplashScreen> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Text(
-              "SELAMAT DATANG",
+              "WELCOME TO MY APP",
               style: Theme.of(context).textTheme.headline5,
               textAlign: TextAlign.center,
             ),
@@ -28,7 +28,7 @@ class _SplashScreen extends State<SplashScreen> {
             ),
             const Flexible(
               child: Image(
-                image: AssetImage('assets/images/main/newspaper.png'),
+                image: AssetImage('assets/images/main/news.png'),
                 width: double.infinity,
               ),
             ),
@@ -51,11 +51,11 @@ class _SplashScreen extends State<SplashScreen> {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                const Text("Belum punya akun?"),
+                const Text("Don't have an account yet?"),
                 const SizedBox(width: 5),
                 TextButton(
                   child: Text(
-                    "Buat Akun",
+                    "Create Account",
                     style: Theme.of(context)
                         .textTheme
                         .button!
