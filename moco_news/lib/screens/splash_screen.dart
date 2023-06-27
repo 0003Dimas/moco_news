@@ -48,28 +48,6 @@ class _SplashScreen extends State<SplashScreen> {
                 onPressed: () => Navigator.pushNamed(context, '/home'),
               ),
             ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                const Text("Don't have an account yet?"),
-                const SizedBox(width: 5),
-                TextButton(
-                  child: Text(
-                    "Create Account",
-                    style: Theme.of(context)
-                        .textTheme
-                        .button!
-                        .copyWith(color: Colors.blueAccent),
-                  ),
-                  onPressed: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => LoginPage()),
-                    );
-                  },
-                )
-              ],
-            )
           ],
         ),
       ),

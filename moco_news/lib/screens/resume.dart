@@ -23,14 +23,6 @@ class ResumeScreen extends StatelessWidget {
               automaticallyImplyLeading: displayMobileLayout,
               iconTheme: IconThemeData(color: Theme.of(context).buttonColor),
               title: const Text(ScreenTitles.resume),
-              actions: <Widget>[
-                IconButton(
-                  icon: const Icon(
-                    Icons.edit_outlined,
-                  ),
-                  onPressed: () => loginAlert(context),
-                ),
-              ],
             ),
             drawer: displayMobileLayout
                 ? const AppDrawer(

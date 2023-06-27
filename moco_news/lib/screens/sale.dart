@@ -23,15 +23,6 @@ class SaleScreen extends StatelessWidget {
               automaticallyImplyLeading: displayMobileLayout,
               iconTheme: IconThemeData(color: Theme.of(context).buttonColor),
               title: const Text(ScreenTitles.sale),
-              actions: <Widget>[
-                IconButton(
-                  icon: const Icon(
-                    Icons.add,
-                    size: 28,
-                  ),
-                  onPressed: () => loginAlert(context),
-                ),
-              ],
             ),
             drawer: displayMobileLayout
                 ? const AppDrawer(

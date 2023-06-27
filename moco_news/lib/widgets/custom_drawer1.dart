@@ -213,18 +213,6 @@ class _AppDrawerState extends State<AppDrawer> with RouteAware {
                 ),
                 const Divider(),
                 ListTile(
-                  leading: const Icon(FontAwesomeIcons.wallet),
-                  title: const Text(
-                    ScreenTitles.wallet,
-                    style: TextStyle(fontSize: 16.0),
-                  ),
-                  trailing: const Icon(Icons.arrow_right),
-                  onTap: () async {
-                    await _navigateTo(context, RouteNames.wallet);
-                  },
-                  selected: _selectedRoute == RouteNames.wallet,
-                ),
-                ListTile(
                   leading: const Icon(FontAwesomeIcons.info),
                   title: const Text(
                     ScreenTitles.about,
@@ -235,18 +223,6 @@ class _AppDrawerState extends State<AppDrawer> with RouteAware {
                     await _navigateTo(context, RouteNames.aboutus);
                   },
                   selected: _selectedRoute == RouteNames.aboutus,
-                ),
-                ListTile(
-                  leading: const Icon(FontAwesomeIcons.cog),
-                  title: const Text(
-                    ScreenTitles.settings,
-                    style: TextStyle(fontSize: 16.0),
-                  ),
-                  trailing: const Icon(Icons.arrow_right),
-                  onTap: () async {
-                    await _navigateTo(context, RouteNames.settings);
-                  },
-                  selected: _selectedRoute == RouteNames.settings,
                 ),
                 ListTile(
                   leading: const Icon(FontAwesomeIcons.weixin),
