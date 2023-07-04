@@ -113,20 +113,11 @@ class _HomeScreenState extends State<HomeScreen> {
               iconTheme: IconThemeData(color: Theme.of(context).buttonColor),
               elevation: 0.0,
               title: Text(
-                "MOCO",
+                "MOCO NEWS",
               ),
               //title: const Image(
               //image: AssetImage('assets/images/main/moco_logo.png'),
               //),
-              actions: <Widget>[
-                IconButton(
-                  padding: const EdgeInsets.only(right: 25.0),
-                  onPressed: () => print('Search'),
-                  icon: const Icon(Icons.search),
-                  iconSize: 25.0,
-                  color: Theme.of(context).buttonColor,
-                ),
-              ],
             ),
             drawer: displayMobileLayout
                 ? const AppDrawer(

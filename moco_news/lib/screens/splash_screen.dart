@@ -22,7 +22,7 @@ class _SplashScreen extends State<SplashScreen> {
               textAlign: TextAlign.center,
             ),
             Text(
-              "MOCO",
+              "MOCO NEWS",
               style: Theme.of(context).textTheme.headline6,
               textAlign: TextAlign.center,
             ),

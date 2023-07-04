@@ -67,11 +67,6 @@ class ResumeScreen extends StatelessWidget {
                     position: "Flutter Developer",
                     duration: "2019 - 2020",
                   ),
-                  _buildExperienceRow(
-                    company: "North South University",
-                    position: "Research Assistant",
-                    duration: "2018 - 2019",
-                  ),
                   const SizedBox(height: 20.0),
                   _buildTitle("Award"),
                   const SizedBox(height: 5.0),

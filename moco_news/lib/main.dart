@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'MOCO',
+      title: 'MOCO NEWS',
       themeMode: ThemeMode.system,
       theme: ThemeData(
         brightness: Brightness.light,

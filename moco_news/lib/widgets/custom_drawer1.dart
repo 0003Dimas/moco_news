@@ -80,12 +80,8 @@ class _AppDrawerState extends State<AppDrawer> with RouteAware {
                           ),
                         ),
                         const Text(
-                          'Dimas',
+                          'Si Moco',
                           style: TextStyle(fontSize: 22, color: Colors.white),
-                        ),
-                        const Text(
-                          'Student',
-                          style: TextStyle(color: Colors.white),
                         ),
                       ],
                     ),
